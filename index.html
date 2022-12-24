@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <title>Cod / dCod</title>
+</head>
+<body>
+    <header>
+        <img id ="logo" src="./img/logo.png" alt="Logo da Pagina"/>
+    </header>
+    <main>
+        <textarea class="input" id="in1" value="Digite seu texto" placeholder="Digite seu texto" >
+        </textarea>
+        <section>
+            <div class="mensagem-box">
+                <div class="aparece">
+                    <textarea name="mensagem" class="mensagem"></textarea>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+                    
+                <div class="desaparece">
+                    <img class="n-pesquisa" src="./img/n_pesquisa.png" alt="">
+                    <div class="txt-desaparece">
+                        <h3 >Nenhuma mensagem encontrada</h3>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <table>
+                <tr>
+                  <td><img src="./img/exclamacao.png" alt="Apenas letras minusculas"></td>
+                  
+                  <td>Apenas letras minúsculas e sem acento.</td>
+                </tr>
+            </table>
+    
+            <div class="botoes">
+                <button class="cript" onclick="btnEncriptar()">
+                    Criptografar
+                </button></td>
+                <button class="descript" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button></td>
+            </div>
+        </aside>
+           
+        <footer>
+
+        </footer>
+    </main>
+
+</body>
+</html>
